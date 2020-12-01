@@ -1,0 +1,55 @@
+ body {
+    font: 13pt Arial, Helvetica, sans-serif; /* Шрифт теста */
+    background: #006363; /* Цвет фона */
+   }
+   h1 {
+    font-size: 30px; /* Размер шрифта в заголовке 1*/
+    color: #fff; /* Цвет заголовка */
+    margin-top: 0; /* Отступ сверху */
+   }
+   h2 {
+    font-size: 30px; /* Размер шрифта в заголовке 2*/
+    margin-top: 0; /* Отступ сверху */
+    text-align: center; /* Выравнивание текст шапки по центру */
+   }
+   a {
+    font-size: 20px; /* Размер шрифта в ссылке */
+    margin-top: 0; /* Отступ сверху */
+    color: #000000; /* Цвет текста */
+   }
+   table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    background: #fff;
+   }
+   th, td {border: 1px solid black;}
+   .container {
+    width: 1800px; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивнить весь блок по центру */
+    background: #009999; /* Цвет фона левой колонки */
+   }
+   .header {
+    font-size: 30px; /* Размер текста в шапке */
+    text-align: center; /* Выравнивание текст шапки по центру */
+    padding: 5px; /* Отступы внутри блока шапки */
+    background: #006363; /* Цвет фона шапки */
+    color: #fff; /* Цвет текста */
+   }
+   .sidebar {
+    margin-top: 10px;
+    width: 300px; /* Ширина блока */
+    padding: 0 10px; /* Отступы внутри левого блока */
+    float: left; /* Обтекание блока по правому краю */
+    color: #fff; /* Цвет текста */
+   }
+   .content {
+    margin-left: 300px; /* Отступ слева */
+    padding: 10px; /* Отступы внутри правого блока */
+    background: linear-gradient(180deg, #33CCCC, #fff); /* Цвет фона правого блока */
+   }
+   .footer {
+    background: #006363; /* Цвет фона нижнего блока-подвала */
+    color: #fff; /* Цвет текста подвала */
+    padding: 5px; /* Отступы внутри блока */
+    clear: left; /* Отменяем действие float */
+   }
